@@ -1,0 +1,15 @@
+<div class="container-fluid p-4">
+  <div class="row">
+    <div class="col-4">
+      <geo-chart [data]="geoChartData"></geo-chart>
+    </div>
+
+    <div class="col-4">
+      <line-chart [data]="regionHistory"></line-chart>
+    </div>
+
+    <div class="col-4">
+      <bar-chart [data]="covidData"></bar-chart>
+    </div>
+  </div>
+</div>

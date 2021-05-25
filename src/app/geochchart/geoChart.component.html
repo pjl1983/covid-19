@@ -1,0 +1,10 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Cases by country</mat-card-title>
+    <mat-card-subtitle>Europe</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <google-chart [title]="chart.title" [type]="chart.type" [data]="data"
+                  [options]="chart.options"></google-chart>
+  </mat-card-content>
+</mat-card>
